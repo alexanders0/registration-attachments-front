@@ -9,7 +9,7 @@ import {
 
 function AppUI() {
   return (
-    <Router basename='/repo-name'>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route path="/:encodedUrl" children={<RequirementsList />} />
