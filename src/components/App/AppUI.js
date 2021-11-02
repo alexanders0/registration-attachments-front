@@ -12,8 +12,8 @@ function AppUI() {
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
-        <Route path={process.env.PUBLIC_URL + '/:encodedUrl'} children={<RequirementsList />} />
-        {/* <Route path="/:encodedUrl" children={<RequirementsList />} /> */}
+        {/* <Route path={process.env.PUBLIC_URL + '/:encodedUrl'} children={<RequirementsList />} /> */}
+        <Route path="/:encodedUrl" children={<RequirementsList />} />
       </Switch>
       <Footer />
     </Router>
