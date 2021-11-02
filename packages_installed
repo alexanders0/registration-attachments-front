@@ -1,0 +1,9 @@
+npm install react-router -> ver si se utiliza al final
+
+Packages installed:
+npm install react-router-dom                        // rutas, aceptar parámetros por cabecera
+npm i axios                                         // realizar peticiones http
+npm install --save pdf-lib                          // llenar los pdfs
+npm install react-pdf                               // visualizar los pdfs
+npm install react-bootstrap@next bootstrap@5.1.1    // bootstrap para react
+npm install react-icons --save                      // iconos

@@ -1,0 +1,41 @@
+#pagebody.level4 {
+  min-width: 100%;
+  width: auto;
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+#pagebody {
+  min-height: 300px;
+  padding: 25px;
+  top: -5px;
+  background: #fff url("../../assets/images/content-bg-tc-dark.png") repeat-x
+    left top;
+  border: 1px #e5ebee solid;
+  border-top-width: 0px;
+  float: left;
+  min-width: 911px;
+  width: 100%;
+  margin: 29px 0 0;
+}
+
+#nomb_beca {
+  height: 10px !important;
+  max-height: 10px !important;
+}
+
+.text-body-table {
+  font-size: 13px;
+}
+
+#schola-ship-table td {
+  border-color: #bfbfbf;
+}
+
+.table .thead-blue-utpl th {
+  color: #fff;
+  background-color: rgb(0, 65, 111);
+  border-color: rgb(0, 65, 111);
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}

@@ -1,0 +1,47 @@
+---Compromiso y Autorización---:
+
+-nombres y apellidos: FULL_NAME
+*nacionalidad: NATIONALITY
+*documento de identidad: IDENTITY_CARD
+titulación: PROGRAM
+
+-ID estudiante: ID
+*Usuario estudiante: USERNAME
+Fecha aceptación: ACCEPTANCE_DATE
+Hora aceptación: ACCEPTANCE_TIME
+Ref. Factura: INVOICE_NUMBER TZREVPY
+
+---Matrícula Especial---:
+
+-documento de identidad: identity_card
+-nombres: FIRST_NAME
+-apellidos: LAST_NAME
+centro universitario: UNIVERSITARY_CENTER
+modalidad: CAMPUS
+titulación: program
+[]justification: JUSTIFICATION
+
+-ID estudiante: id
+Usuario estudiante: user
+Fecha aceptación: acceptance_date
+Hora aceptación: acceptance_time
+Ref. Factura: invoice_number
+
+---Matrícula Condicionada---:
+
+-documento de identidad: identity_card
+-nombres: first_name
+-apellidos: last_name
+modalidad: campus
+-celular: PHONE
+titulación: program
+centro universitario: universitary_center
+-correo: EMAIL
+
+-ID estudiante: id
+Usuario estudiante: user
+Fecha aceptación: acceptance_date
+Hora aceptación: acceptance_time
+Ref. Factura: invoice_number
+
+ip: ip

@@ -1,0 +1,54 @@
+{
+  "origin": "mat",
+  "env": "devl",
+  "ci": "1104876147",
+  "name": "Alexander Joel Sánchez Narváez",
+  "pk_request": {
+    "pidm": "12345",
+    "registration_id": "45"
+  }
+};
+
+/* Old */
+const ejemplo = JSON.stringify(
+  {
+    "origin": "reg",
+    "env": "devl",
+    "ci": "1104876147",
+    "name": "Alexander Joel Sánchez Narváez",
+    "pk_request": {
+      "pidm": "22",
+      "term_code": "202064",
+      "appl_no": "1"
+    }
+  }
+)
+
+/* New 1*/
+const ejemplo = JSON.stringify(
+  {
+    "origin": "reg",
+    "env": "DEVL",
+    "ci": "1721832366",
+    "name": "Silvia Gabriela Solis Cabrera",
+    "pk_request": {
+      "pidm": "259433",
+      "program": "EDBA_D1",
+    }
+  }
+)
+
+/* Ejemplo U00258418 - 256460 - DERE_D1 -> PRUEBA EXITOSA */
+/* New 2: with invoice number - U00261411 :( no tiene número de factura */
+const ejemplo = JSON.stringify(
+  {
+    "ORIGIN": "MAT",
+    "ENV": "DEVL",
+    "NAME": "Silvia Gabriela Solis Cabrera",
+    "PK_REQUEST": {
+      "PIDM": "256460",
+      "SERVICE_NO": "5000",
+      "PROGRAM": "DERE_D1",
+    }
+  }
+)
